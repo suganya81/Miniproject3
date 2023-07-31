@@ -1,0 +1,15 @@
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\bin\Debug\net6.0\Mini3.cs.exe
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\bin\Debug\net6.0\Mini3.cs.deps.json
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\bin\Debug\net6.0\Mini3.cs.runtimeconfig.json
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\bin\Debug\net6.0\Mini3.cs.dll
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\bin\Debug\net6.0\Mini3.cs.pdb
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.csproj.AssemblyReference.cache
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.AssemblyInfoInputs.cache
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.AssemblyInfo.cs
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.csproj.CoreCompileInputs.cache
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.dll
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\refint\Mini3.cs.dll
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.pdb
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\Mini3.cs.genruntimeconfig.cache
+C:\Users\Suganya\source\repos\Mini3.cs\Mini3.cs\obj\Debug\net6.0\ref\Mini3.cs.dll
