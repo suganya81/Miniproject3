@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Products</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  margin:5px;
+  width: 50%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  
+}
+
+
+article {
+  float: right;
+   width: 50%;
+   margin:5px;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+} */
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: tomato
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>Products</h2>
+</header>
+
+<section>
+<nav>
+      
+<h1>  Wedding Cakes   </h1>
+       <div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px; padding: 20px;">
+        <div class="container">
+          <img src="wed1.png" alt="Image 1" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Vanilla</div>
+        <div class="centered">$35</div> <button class="btn">Buy</button><br>
+        
+
+        <img src="wed2.jpg" alt="Image 2" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Heavenlychocolate</div>
+        <div class="centered">$35</div><button class="btn">Buy</button><br>
+
+        <img src="wed3.jpg" alt="Image 3" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">FruitPunch</div>
+        <div class="centered">$40</div><button class="btn">Buy</button><br>
+
+        <img src="wed4.png" alt="Image 4" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Cherrynut</div>
+        <div class="centered">$35</div><button class="btn">Buy</button><br>
+
+        <img src="wed5.jpg" alt="Image 5" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Veronica</div>
+        <div class="centered">$35</div><button class="btn">Buy</button><br>
+
+        <img src="wed6.png" alt="Image 6" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Elisa</div>
+        <div class="centered">$35</div><button class="btn">Buy</button><br>
+
+        <img src="wed7.png" alt="Image 7" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Rosemilk</div>
+        <div class="centered">$30</div><button class="btn">Buy</button><br>
+
+        <img src="wed8.jpg" alt="Image 8" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Belgiumchocolate</div>
+        <div class="centered">$45</div><button class="btn">Buy</button>
+        </div>
+        </div>
+      </nav>
+ 
+      <article>
+        <h1>Cup Cakes</h1>
+       <div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px; padding: 20px;">
+        <div class="container">
+          <img src="cup1.jpg" alt="Image 1" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Caramel4Pack</div>
+        <div class="centered">$20</div> <button class="btn">Buy</button><br>
+        
+
+        <img src="cup2.jpg" alt="Image 2" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Fruity</div>
+        <div class="centered">$10</div><button class="btn">Buy</button><br>
+
+        <img src="cup3.jpg" alt="Image 3" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Strawberry</div>
+        <div class="centered">$35</div><button class="btn">Buy</button><br>
+
+        <img src="cup4.jpg" alt="Image 4" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">sponge</div>
+        <div class="centered">$20</div><button class="btn">Buy</button><br>
+
+        <img src="cup5.jpeg" alt="Image 5" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Redvelvet</div>
+        <div class="centered">$35</div><button class="btn">Buy</button><br>
+
+        <img src="cup6.jpg" alt="Image 6" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Roses</div>
+        <div class="centered">$30</div><button class="btn">Buy</button><br>
+
+        <img src="cup7.jpg" alt="Image 7" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Rainbow</div>
+        <div class="centered">$30</div><button class="btn">Buy</button><br>
+
+        <img src="cup8.jpg" alt="Image 8" style="width: 60%; height: 10%; object-fit: cover;">
+        <div class="centered">Raspberry</div>
+        <div class="centered">$40</div><button class="btn">Buy</button>
+        </div>
+      
+      </article>
+</section>
+</body>
+</html>
+

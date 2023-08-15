@@ -1,0 +1,80 @@
+header {
+  background-color: #abc8b3;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(215, 220, 147);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: hsl(170, 15%, 71%);
+  padding: 20px;
+}
+/* Style for the menu items */
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Style for the menu links */
+nav a {
+  text-decoration:solid;
+  color: #e83107c7;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the menu links */
+nav a:hover {
+  background-color: #7aebb8;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 84%;
+  background-color: #c5e7ca;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+body {
+  /* Set any desired styles for the body element */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* Set your desired dimensions for the container */
+  width: 100%;
+  height: 100vh;
+  /* Enable vertical scroll bar for the container */
+  overflow-y: auto; /* Use 'scroll' if you always want to show the scroll bar even if content fits */
+}
+
+/* Add more styles for your content as needed */
+
+
+  
